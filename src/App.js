@@ -1,16 +1,18 @@
 import React from 'react';
-import Profile from './profile/Profile.js';
-import moi from "./profile/moi.jpg";
+import FullName from './Component/Profile/FullName.js';
+import Address from './Component/Profile/Address.js';
+import ProfilPhoto from './Component/Profile/ProfilPhoto.js';
 import './App.css';
 
 function App() {
-const alerte = (fullName) => {alert (fullName)} ;
+  
   return (
     <div>
-     <Profile fullName="Yassine Seltene" bio="Je suis un développeur Web fullstack js" profession="ingénieur développeur web" handleName={alerte}  > 
-      <img src={moi} alt="Yassine Seltene"/> </Profile>
-
-</div>
-  )
+     <FullName />;
+     <Address/>;
+     <ProfilPhoto />;
+    </div>
+  );
 }
+
 export default App;
