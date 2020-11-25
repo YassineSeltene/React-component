@@ -7,8 +7,8 @@ function App() {
 const alerte = (fullName) => {alert (fullName)} ;
   return (
     <div>
-     <Profile fullName="Yassine Seltene" bio="Je suis un développeur Web fullstack js" profession="ingénieur développeur web" handleName={alerte}  /> 
-     <profile> <img src={moi} alt="Yassine Seltene"/> </profile>
+     <Profile fullName="Yassine Seltene" bio="Je suis un développeur Web fullstack js" profession="ingénieur développeur web" handleName={alerte}  > 
+      <img src={moi} alt="Yassine Seltene"/> </Profile>
 
 </div>
   )
